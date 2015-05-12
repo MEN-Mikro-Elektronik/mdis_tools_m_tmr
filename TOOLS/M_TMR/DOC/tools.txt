@@ -1,0 +1,47 @@
+Program Description
+===================
+Wed Nov  3 15:04:17 MET 1999
+ 
+Overview of all Programs
+------------------------
+
+m_tmr_test       - Test tool for MDIS drivers implementing TMR profile
+m_tmr_veri       - Verification tool for MDIS drivers implementing TMR profile
+
+Program m_tmr_test
+------------------
+
+Usage:
+   m_tmr_test [<opts>] <device> [<opts>]
+
+Function:
+   Test tool for MDIS drivers implementing TMR profile
+
+Options:
+   -c=<dec>     channel number...................[1]          
+   -o           start for one shot mode......... [no]         
+   -f           start for free running mode..... [no]         
+   -h           halt timer...................... [no]         
+   -p=<dec>     set preload register............ [no]         
+   -s           install signal.................. [no]         
+   
+Description:
+   Test tool for MDIS drivers implementing TMR profile   
+   
+Program m_tmr_veri
+------------------
+
+Usage:
+   m_tmr_veri [<opts>] <device> [<opts>]
+
+Function:
+   Verification tool for MDIS drivers implementing TMR profile
+
+Options:
+   -c=<dec>     channel number...................[1]          
+   
+Description:
+   Verification tool for MDIS drivers implementing TMR profile   
+   
+   Assumes that one round trip of timer is at least 1second   
+   
