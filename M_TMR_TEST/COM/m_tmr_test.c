@@ -41,8 +41,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Id: m_tmr_test.c,v 1.2 2013/09/10 11:01:22 gv Exp $";
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <MEN/men_typs.h>
