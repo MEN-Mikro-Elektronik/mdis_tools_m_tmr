@@ -15,20 +15,6 @@
  *     Required: libraries: mdis_api, usr_oss, usr_utl
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: m_tmr_veri.c,v $
- * Revision 1.3  2013/09/10 11:01:24  gv
- * R: Porting to MDIS5
- * M: Changed according to MDIS porting guide 0.9
- *
- * Revision 1.2  2001/02/08 15:45:27  kp
- * Problem fix: declare G_sigCnt as volatile
- * (problem occurred with GCC/VxWorks)
- *
- * Revision 1.1  1999/11/03 15:40:11  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

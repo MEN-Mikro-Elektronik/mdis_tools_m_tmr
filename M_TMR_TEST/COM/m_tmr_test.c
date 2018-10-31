@@ -13,16 +13,6 @@
  *     Required: libraries: mdis_api, usr_oss, usr_utl
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: m_tmr_test.c,v $
- * Revision 1.2  2013/09/10 11:01:22  gv
- * R: Porting to MDIS5
- * M: Changed according to MDIS porting guide 0.9
- *
- * Revision 1.1  1999/11/03 15:40:09  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/
