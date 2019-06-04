@@ -5,8 +5,6 @@
  ****************************************************************************
  *
  *       Author: kp
- *        $Date: 2013/09/10 11:01:22 $
- *    $Revision: 1.2 $
  *
  *  Description: Test tool for MDIS drivers implementing TMR profile
  *
@@ -38,6 +36,8 @@
 #include <MEN/usr_utl.h>
 #include <MEN/mdis_api.h>
 #include <MEN/m_tmr_drv.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   DEFINES                             |
@@ -90,7 +90,7 @@ static void usage(void)
 	printf("  -p=<dec>     set preload register............ [no]      \n");
 	printf("  -s           install signal.................. [no]      \n");
 	printf("\n");
-	printf("(c) 1999 by MEN mikro elektronik GmbH\n\n");
+	printf("Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 /********************************* SigHandler ********************************

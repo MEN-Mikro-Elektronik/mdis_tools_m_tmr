@@ -1,8 +1,6 @@
 #***************************  M a k e f i l e  *******************************
 #
 #         Author: kp
-#          $Date: 1999/11/03 15:40:13 $
-#      $Revision: 1.1 $
 #
 #    Description: Makefile definitions for tool M_TMR_VERI
 #
@@ -23,6 +21,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 MAK_NAME=m_tmr_veri
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="mdis_tools_m_tmr_01_17-0-g44e7dfc-dirty_2019-02-21"
+
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
+MAK_SWITCH=$(SW_PREFIX)$(DEF_REVISION)
 
 MAK_LIBS=$(LIB_PREFIX)$(MEN_LIB_DIR)/mdis_api$(LIB_SUFFIX)	\
          $(LIB_PREFIX)$(MEN_LIB_DIR)/usr_oss$(LIB_SUFFIX)	\
