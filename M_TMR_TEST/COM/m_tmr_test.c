@@ -12,7 +12,7 @@
  *     Switches: -
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1999-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
@@ -90,7 +90,7 @@ static void usage(void)
 	printf("  -p=<dec>     set preload register............ [no]      \n");
 	printf("  -s           install signal.................. [no]      \n");
 	printf("\n");
-	printf("Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
+	printf("Copyright 1999-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 /********************************* SigHandler ********************************
